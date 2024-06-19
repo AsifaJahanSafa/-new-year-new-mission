@@ -10,7 +10,7 @@
 .common-container{
     width: 78%;
     max-width: 1140px;
-    margin:20px auto 80px auto
+    margin:20px auto 0px auto
 }
 /* header styling */
 .banner-pic{
@@ -50,9 +50,9 @@
 
 #discount-catagory{
     max-width: 620px;
-
+   
     color:red;
-    margin:0px auto;
+    margin:100px auto 0px ;
     text-align: center;
 }
 
@@ -89,4 +89,55 @@ font-weight: 700;
 
 .discount-catagory-img img{
     width: 100%;
+}
+
+/* mid-night-party styling */
+
+.mid-night-party{
+    background-image:url("./Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color:white;
+    margin:100px auto 0px ;
+    border-radius: 8px;}
+
+.mid-night-party-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:30px 50px;
+    max-width: 833px;
+    border: 2px solid red;
+    margin: 0px auto;
+}
+.mid-night-party-title{
+    max-width: 500px;
+    font-size: 49px;
+    font-weight: 900;
+}
+
+
+.mid-night-party-des{
+    /* max-width: 543px; */
+    font-size: 12px;
+    font-weight: 400;
+    color:#ffffffce;
+    margin:20px 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.mid-night-party-img img{
+    width: 100%;
+}
+
+
+.join-btn{
+    padding: 10px;
+    background-color: transparent;
+    color:white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border:0px
 }
