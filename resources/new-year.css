@@ -112,7 +112,7 @@ font-weight: 700;
     justify-content:space-between;
     padding:30px 50px;
     max-width: 833px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0px auto;
 }
 .mid-night-party-title{
@@ -168,3 +168,107 @@ font-weight: 700;
 }
 
 #red-color{background-color: #F00;}
+
+
+/* comming soon div styling */
+
+.comming-soon{
+   
+    margin:100px auto 0px ;
+    /* border:2px solid red; */
+    text-align: left;
+    display: flex;
+    justify-content:center;
+     align-items:center;
+     /* border:2px solid red; */
+     padding: 0px;
+}
+
+.comming-soon-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content:flex-start;
+     align-items:center;
+   
+}
+
+.comming-soon-text{
+    max-width: 306px;
+    /* border:2px solid red; */
+}
+
+.comming-soon-greeting{
+    color: #F00;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.comming-soon-title{
+    color: #070211;
+    font-family: "Merriweather", serif;
+font-size: 38px;
+
+font-weight: 900;
+
+text-transform: capitalize;
+}
+
+
+.comming-soon-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+    font-size:16px;
+
+font-weight: 400;
+line-height: 22px; /* 160% */
+margin-top: 10px;
+}
+.comming-soon-img{
+    margin:0px 30px;
+    max-width: 384px;
+    border:10px solid #F00;
+    border-radius: 100%;
+    padding:20px
+}
+.comming-soon-img img{
+ width: 100%;
+}
+
+.comming-soong-year{
+    max-width:216px;
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.comming-soong-year-title{
+    color: #F00;
+    font-family: "Inter", sans-serif;
+    font-size:40px;
+    margin-bottom: 20px;
+
+font-weight: 700;
+
+}
+
+.comming-soong-year-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+
+    font-weight: 400;
+    margin-bottom:10px;
+
+}
+
+
+.comming-soong-year img{
+    max-width:70px;
+    justify-content: end    
+}
+/* .img-comming-soon img{
+    width: 100%;
+} */
