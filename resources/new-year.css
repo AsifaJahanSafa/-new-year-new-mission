@@ -341,8 +341,10 @@ text-align: center;
 }
 
 .news-latter-container{
-    padding:60px 0px
+    padding:60px 0px;
+   text-align: center;
 }
+
 
 .news-latter-icon {max-width: 117px;
 margin:20px auto}
