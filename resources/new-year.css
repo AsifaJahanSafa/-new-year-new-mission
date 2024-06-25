@@ -174,7 +174,7 @@ font-weight: 700;
 
 .comming-soon{
    
-    margin:100px auto 0px ;
+    margin:100px auto  ;
     /* border:2px solid red; */
     text-align: left;
     display: flex;
@@ -182,13 +182,16 @@ font-weight: 700;
      align-items:center;
      /* border:2px solid red; */
      padding: 0px;
+     /* border:1px solid red */
 }
 
 .comming-soon-container{
+    width: 100%;
     margin-top: 20px;
     display: flex;
-    justify-content:flex-start;
+    justify-content:space-between;
      align-items:center;
+     /* border:1px solid red */
    
 }
 
@@ -403,4 +406,47 @@ font-weight: 400;
     font-weight: 400;
     border-radius:  0px 25px  25px 0px  ;
     border:none
+}
+
+/* my-awsome-portfolio */
+.awsome-portfolio{
+    margin: 100px auto;
+}
+.awsome-portfolio-img-con{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border:2px solid red; */
+    gap:20px
+}
+
+.item img{width: 100%;}
+.awsome-portfolio-text{
+    max-width: 654px;
+}
+
+.gift-title{
+    font-size: 17px;
+    color:#F00;
+   text-transform: uppercase;
+   
+font-family: "Inter", sans-serif;
+}
+
+.awsome-portfolio-titel{
+color: #070211;
+font-family: "Merriweather", serif;
+font-size: 28px;
+
+font-weight: 900;
+
+text-transform: capitalize;}
+
+.awsome-portfolio-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+font-size: 14px;
+
+font-weight: 400;
+margin:20px auto
+
 }
