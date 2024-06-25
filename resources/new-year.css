@@ -415,6 +415,7 @@ font-weight: 400;
 .awsome-portfolio-img-con{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    flex-direction: column;
     /* border:2px solid red; */
     gap:20px
 }
